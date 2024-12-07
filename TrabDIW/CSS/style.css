@@ -71,3 +71,18 @@ i.redes {
     font-size: 2rem;
     margin: 15px;
 }
+
+.header .btn-warning {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #000;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+}
+
+.header .btn-warning:hover {
+    background-color: #e5c100;
+    color: #000;
+}

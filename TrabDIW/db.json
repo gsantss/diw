@@ -1,0 +1,67 @@
+{
+  "perfil": [
+    {
+      "id": "69f1",
+      "nome": "Gabriel Sousa",
+      "curso": "Engenharia de Software",
+      "email": "gf.22142@gmail.com",
+      "facebook": "https://www.facebook.com",
+      "twitter": "https://x.com/",
+      "instagram": "https://www.instagram.com/gf.ssousa/",
+      "bio": "Este sou eu"
+    }
+  ],
+  "seriesPopulares": [
+    {
+      "id": 225385,
+      "name": "Black Doves",
+      "poster_path": "/2eZNjPQ9f0TQDHpsL2Ecktsv5v6.jpg",
+      "overview": "Quando descobre que mataram o amante dela, uma espiã infiltrada como esposa de um político sai em busca da verdade e de vingança com a ajuda de um amigo assassino.",
+      "first_air_date": "2024-12-05"
+    },
+    {
+      "id": 197543,
+      "name": "Melou",
+      "poster_path": "/vzHikdqRGPSjabhFLJC9dHVIGbL.jpg",
+      "overview": "Ruth Clarke, uma durona e extremamente competente fazendeira canadense de xarope de bordo de meia-idade, está farta de ser cercada pelas convenções educadas e burocráticas nativas da identidade de seu país. Com a ajuda de Remy Bouchard, um cabeça-dura local e um velho Mike Byrne, um mafioso de baixo escalão, Ruth muda seu destino — e transforma o futuro de sua comunidade com o roubo de milhões de dólares em xarope de bordo.",
+      "first_air_date": "2024-12-06"
+    }
+  ],
+  "minhasSeries": [
+    {
+      "id": 225385,
+      "name": "Black Doves",
+      "poster_path": "/2eZNjPQ9f0TQDHpsL2Ecktsv5v6.jpg",
+      "overview": "Quando descobre que mataram o amante dela, uma espiã infiltrada como esposa de um político sai em busca da verdade e de vingança com a ajuda de um amigo assassino.",
+      "first_air_date": "2024-12-05"
+    },
+    {
+      "id": 36361,
+      "name": "Ulice",
+      "poster_path": "/gFEHva8Csx18hMGJJZ6gi4sFSKR.jpg",
+      "overview": "",
+      "first_air_date": "2005-09-05"
+    },
+    {
+      "id": 249010,
+      "name": "Kelders van Geheime",
+      "poster_path": "/vf1I0G5jICTstI1EXxb9Oqq80TU.jpg",
+      "overview": "Kelders van Geheime (Cellars of Secrets) é uma telenovela sul-africana em língua africâner baseada nas negociações e negócios da comunidade que vive em Soebatskloof (uma vinícola no Cabo). A série foca em três famílias: as famílias Abrahams, Syster e Marais. Essas famílias terão que se unir, concordar (ou concordar em discordar) e trabalhar juntas para ganhar seu pão com manteiga – e uma taça de vinho.",
+      "first_air_date": "2024-05-06"
+    },
+    {
+      "id": 248890,
+      "name": "Ready Steady Cook South Africa",
+      "poster_path": "/30xX4IMbgnMbQwo76xM4BOSokZO.jpg",
+      "overview": "No Ready Steady Cook, duas equipes — um Red Tomato e um Green Pepper — competem em uma Red Kitchen e uma Green Kitchen, com um chef sul-africano de cada lado e cozinheiros domésticos entusiasmados, enquanto são desafiados criativamente com um misterioso saco de ingredientes em uma competição de culinária de 20 minutos.",
+      "first_air_date": "2024-03-18"
+    },
+    {
+      "id": 94722,
+      "name": "Tagesschau",
+      "poster_path": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+      "overview": "Tagesschau é um serviço de notícias de televisão nacional e internacional alemão produzido pela equipe editorial da ARD-aktuell em nome da rede de televisão de serviço público alemão ARD",
+      "first_air_date": "1952-12-26"
+    }
+  ]
+}
