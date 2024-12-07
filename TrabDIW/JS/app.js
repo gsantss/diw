@@ -65,18 +65,15 @@ const carregarSeriesPopulares = async () => {
 
 const carregarNovasSeries = async () => {
     try {
-        // Faz a chamada para a API TMDB
         const response = await fetch(
             `https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}&language=pt-BR`
         );
         const data = await response.json();
 
-        // Verifica se há resultados
         if (data.results && data.results.length > 0) {
             const novasSeries = document.getElementById("novasSeries");
-            // Renderiza os cards de cada série
             novasSeries.innerHTML = data.results
-                .slice(0, 8) // Limita a 8 séries para evitar excesso
+                .slice(0, 8)
                 .map((serie) => `
                     <div class="col-md-3 mb-4">
                         <div class="card bg-dark text-yellow">
@@ -91,7 +88,6 @@ const carregarNovasSeries = async () => {
                 `)
                 .join("");
         } else {
-            // Caso não haja séries disponíveis
             document.getElementById("novasSeries").innerHTML = "<p class='text-yellow'>Nenhuma nova série disponível no momento.</p>";
         }
     } catch (error) {
@@ -103,19 +99,16 @@ const carregarNovasSeries = async () => {
 
 const carregarMinhasSeries = async () => {
     try {
-        // Faz a requisição ao JSON Server para obter as séries salvas
         const response = await fetch("http://localhost:3001/minhasSeries");
         const minhasSeries = await response.json();
 
         const container = document.getElementById("minhasSeries");
 
-        // Verifica se há séries salvas
         if (minhasSeries.length === 0) {
             container.innerHTML = "<p class='text-yellow'>Nenhuma série salva ainda.</p>";
             return;
         }
 
-        // Renderiza as séries no layout de cards
         container.innerHTML = minhasSeries
             .map((serie) => `
                 <div class="col-md-3 mb-4">
