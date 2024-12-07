@@ -1,0 +1,52 @@
+body {
+    background-color: #000;
+    color: #ffd700;
+}
+
+.input-group input {
+    border: 1px solid #ffd700;
+    color: #000;
+}
+
+.btn-warning {
+    background-color: #ffd700;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #e5c100;
+}
+
+.card {
+    background-color: #1a1a1a;
+    color: #ffd700;
+    border: none;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.logo {
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+i.redes {
+    color: #ffd700;
+    font-size: 2rem;
+    margin: 15px;
+}
